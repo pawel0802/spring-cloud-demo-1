@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/pawel0802/spring-cloud-demo
+          uri: https://github.com/pawel0802/spring-cloud-demo-1
           search-paths: configuration-files
           order: 1
         encrypt:

@@ -5,5 +5,5 @@ spring:
     import: optional:configserver:http://localhost:8888
   cloud:
     config:
-      label: spring-cloud-demo
+      label: master
       fail-fast: true
