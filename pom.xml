@@ -18,7 +18,7 @@
     <modules>
         <module>configuration-server</module>
         <module>discovery-server</module>
-        <module>hello-world-service</module>
+        <module>hello-service</module>
     </modules>
 
 </project>
