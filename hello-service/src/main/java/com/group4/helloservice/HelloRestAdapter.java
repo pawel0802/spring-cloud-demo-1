@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("hello-world")
+@RequestMapping("hello")
 @RestController
 @RequiredArgsConstructor
-public class HelloWorldRestAdapter {
+public class HelloRestAdapter {
 
     @GetMapping
     public ResponseEntity<String> getHello() {
-        return ResponseEntity.ok("Hello World");
+        return ResponseEntity.ok("Hello");
     }
 }

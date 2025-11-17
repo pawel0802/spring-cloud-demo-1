@@ -1,0 +1,4 @@
+server:
+  port: 20000
+api:
+  hello: http://HELLO-SERVICE/hello

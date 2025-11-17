@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: other-service
+  config:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+    config:
+      label: master
+      # fail-fast: true
